@@ -179,6 +179,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 						.substring(start, end);
 				text.setText(newText);
 			}
+			
 		} else if (v.getId() == R.id.buttonAdd) {
 			showsign("+");
 		} else if (v.getId() == R.id.buttonSub) {
